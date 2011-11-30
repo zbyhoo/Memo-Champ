@@ -35,17 +35,17 @@
 		2617120A1486D027000834D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2617120C1486D027000834D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2617120E1486D027000834D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		261712121486D027000834D5 /* Memo Champ-Info.plist */ = {isa = PBXFileReference; path = "Memo Champ-Info.plist"; sourceTree = "<group>"; };
+		261712121486D027000834D5 /* Memo Champ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memo Champ-Info.plist"; sourceTree = "<group>"; };
 		261712141486D027000834D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		261712161486D027000834D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		261712181486D027000834D5 /* Memo Champ-Prefix.pch */ = {isa = PBXFileReference; path = "Memo Champ-Prefix.pch"; sourceTree = "<group>"; };
-		261712191486D027000834D5 /* MCAppDelegate.h */ = {isa = PBXFileReference; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		261712181486D027000834D5 /* Memo Champ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memo Champ-Prefix.pch"; sourceTree = "<group>"; };
+		261712191486D027000834D5 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
 		2617121A1486D027000834D5 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
 		261712211486D028000834D5 /* Memo ChampTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo ChampTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261712221486D028000834D5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2617122A1486D028000834D5 /* Memo ChampTests-Info.plist */ = {isa = PBXFileReference; path = "Memo ChampTests-Info.plist"; sourceTree = "<group>"; };
+		2617122A1486D028000834D5 /* Memo ChampTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memo ChampTests-Info.plist"; sourceTree = "<group>"; };
 		2617122C1486D028000834D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2617122E1486D028000834D5 /* Memo_ChampTests.h */ = {isa = PBXFileReference; path = Memo_ChampTests.h; sourceTree = "<group>"; };
+		2617122E1486D028000834D5 /* Memo_ChampTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo_ChampTests.h; sourceTree = "<group>"; };
 		2617122F1486D028000834D5 /* Memo_ChampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo_ChampTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
