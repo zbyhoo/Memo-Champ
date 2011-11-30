@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2617120B1486D027000834D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2617120A1486D027000834D5 /* UIKit.framework */; };
+		2617120D1486D027000834D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2617120C1486D027000834D5 /* Foundation.framework */; };
+		2617120F1486D027000834D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2617120E1486D027000834D5 /* CoreGraphics.framework */; };
+		261712151486D027000834D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 261712131486D027000834D5 /* InfoPlist.strings */; };
+		261712171486D027000834D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 261712161486D027000834D5 /* main.m */; };
+		2617121B1486D027000834D5 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617121A1486D027000834D5 /* MCAppDelegate.m */; };
+		261712231486D028000834D5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261712221486D028000834D5 /* SenTestingKit.framework */; };
+		261712241486D028000834D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2617120A1486D027000834D5 /* UIKit.framework */; };
+		261712251486D028000834D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2617120C1486D027000834D5 /* Foundation.framework */; };
+		2617122D1486D028000834D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2617122B1486D028000834D5 /* InfoPlist.strings */; };
+		261712301486D028000834D5 /* Memo_ChampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617122F1486D028000834D5 /* Memo_ChampTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		261712261486D028000834D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 261711FD1486D027000834D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 261712051486D027000834D5;
+			remoteInfo = "Memo Champ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		261712061486D027000834D5 /* Memo Champ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memo Champ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2617120A1486D027000834D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2617120C1486D027000834D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2617120E1486D027000834D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		261712121486D027000834D5 /* Memo Champ-Info.plist */ = {isa = PBXFileReference; path = "Memo Champ-Info.plist"; sourceTree = "<group>"; };
+		261712141486D027000834D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		261712161486D027000834D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		261712181486D027000834D5 /* Memo Champ-Prefix.pch */ = {isa = PBXFileReference; path = "Memo Champ-Prefix.pch"; sourceTree = "<group>"; };
+		261712191486D027000834D5 /* MCAppDelegate.h */ = {isa = PBXFileReference; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		2617121A1486D027000834D5 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		261712211486D028000834D5 /* Memo ChampTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memo ChampTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		261712221486D028000834D5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2617122A1486D028000834D5 /* Memo ChampTests-Info.plist */ = {isa = PBXFileReference; path = "Memo ChampTests-Info.plist"; sourceTree = "<group>"; };
+		2617122C1486D028000834D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2617122E1486D028000834D5 /* Memo_ChampTests.h */ = {isa = PBXFileReference; path = Memo_ChampTests.h; sourceTree = "<group>"; };
+		2617122F1486D028000834D5 /* Memo_ChampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo_ChampTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261712031486D027000834D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2617120B1486D027000834D5 /* UIKit.framework in Frameworks */,
+				2617120D1486D027000834D5 /* Foundation.framework in Frameworks */,
+				2617120F1486D027000834D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2617121D1486D028000834D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261712231486D028000834D5 /* SenTestingKit.framework in Frameworks */,
+				261712241486D028000834D5 /* UIKit.framework in Frameworks */,
+				261712251486D028000834D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		261711FB1486D027000834D5 = {
+			isa = PBXGroup;
+			children = (
+				261712101486D027000834D5 /* Memo Champ */,
+				261712281486D028000834D5 /* Memo ChampTests */,
+				261712091486D027000834D5 /* Frameworks */,
+				261712071486D027000834D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		261712071486D027000834D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261712061486D027000834D5 /* Memo Champ.app */,
+				261712211486D028000834D5 /* Memo ChampTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		261712091486D027000834D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2617120A1486D027000834D5 /* UIKit.framework */,
+				2617120C1486D027000834D5 /* Foundation.framework */,
+				2617120E1486D027000834D5 /* CoreGraphics.framework */,
+				261712221486D028000834D5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		261712101486D027000834D5 /* Memo Champ */ = {
+			isa = PBXGroup;
+			children = (
+				261712191486D027000834D5 /* MCAppDelegate.h */,
+				2617121A1486D027000834D5 /* MCAppDelegate.m */,
+				261712111486D027000834D5 /* Supporting Files */,
+			);
+			path = "Memo Champ";
+			sourceTree = "<group>";
+		};
+		261712111486D027000834D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				261712121486D027000834D5 /* Memo Champ-Info.plist */,
+				261712131486D027000834D5 /* InfoPlist.strings */,
+				261712161486D027000834D5 /* main.m */,
+				261712181486D027000834D5 /* Memo Champ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		261712281486D028000834D5 /* Memo ChampTests */ = {
+			isa = PBXGroup;
+			children = (
+				2617122E1486D028000834D5 /* Memo_ChampTests.h */,
+				2617122F1486D028000834D5 /* Memo_ChampTests.m */,
+				261712291486D028000834D5 /* Supporting Files */,
+			);
+			path = "Memo ChampTests";
+			sourceTree = "<group>";
+		};
+		261712291486D028000834D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2617122A1486D028000834D5 /* Memo ChampTests-Info.plist */,
+				2617122B1486D028000834D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		261712051486D027000834D5 /* Memo Champ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261712331486D028000834D5 /* Build configuration list for PBXNativeTarget "Memo Champ" */;
+			buildPhases = (
+				261712021486D027000834D5 /* Sources */,
+				261712031486D027000834D5 /* Frameworks */,
+				261712041486D027000834D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memo Champ";
+			productName = "Memo Champ";
+			productReference = 261712061486D027000834D5 /* Memo Champ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		261712201486D028000834D5 /* Memo ChampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261712361486D028000834D5 /* Build configuration list for PBXNativeTarget "Memo ChampTests" */;
+			buildPhases = (
+				2617121C1486D028000834D5 /* Sources */,
+				2617121D1486D028000834D5 /* Frameworks */,
+				2617121E1486D028000834D5 /* Resources */,
+				2617121F1486D028000834D5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				261712271486D028000834D5 /* PBXTargetDependency */,
+			);
+			name = "Memo ChampTests";
+			productName = "Memo ChampTests";
+			productReference = 261712211486D028000834D5 /* Memo ChampTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		261711FD1486D027000834D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 261712001486D027000834D5 /* Build configuration list for PBXProject "Memo Champ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 261711FB1486D027000834D5;
+			productRefGroup = 261712071486D027000834D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				261712051486D027000834D5 /* Memo Champ */,
+				261712201486D028000834D5 /* Memo ChampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		261712041486D027000834D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261712151486D027000834D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2617121E1486D028000834D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2617122D1486D028000834D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2617121F1486D028000834D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261712021486D027000834D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261712171486D027000834D5 /* main.m in Sources */,
+				2617121B1486D027000834D5 /* MCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2617121C1486D028000834D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261712301486D028000834D5 /* Memo_ChampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		261712271486D028000834D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 261712051486D027000834D5 /* Memo Champ */;
+			targetProxy = 261712261486D028000834D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		261712131486D027000834D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				261712141486D027000834D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2617122B1486D028000834D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2617122C1486D028000834D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		261712311486D028000834D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		261712321486D028000834D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		261712341486D028000834D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memo Champ/Memo Champ-Prefix.pch";
+				INFOPLIST_FILE = "Memo Champ/Memo Champ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		261712351486D028000834D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memo Champ/Memo Champ-Prefix.pch";
+				INFOPLIST_FILE = "Memo Champ/Memo Champ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		261712371486D028000834D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Memo Champ.app/Memo Champ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memo Champ/Memo Champ-Prefix.pch";
+				INFOPLIST_FILE = "Memo ChampTests/Memo ChampTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		261712381486D028000834D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Memo Champ.app/Memo Champ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memo Champ/Memo Champ-Prefix.pch";
+				INFOPLIST_FILE = "Memo ChampTests/Memo ChampTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261712001486D027000834D5 /* Build configuration list for PBXProject "Memo Champ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261712311486D028000834D5 /* Debug */,
+				261712321486D028000834D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		261712331486D028000834D5 /* Build configuration list for PBXNativeTarget "Memo Champ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261712341486D028000834D5 /* Debug */,
+				261712351486D028000834D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		261712361486D028000834D5 /* Build configuration list for PBXNativeTarget "Memo ChampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261712371486D028000834D5 /* Debug */,
+				261712381486D028000834D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 261711FD1486D027000834D5 /* Project object */;
+}
