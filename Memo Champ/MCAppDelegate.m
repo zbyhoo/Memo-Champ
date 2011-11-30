@@ -3,10 +3,11 @@
 //  Memo Champ
 //
 //  Created by Zbigniew Kominek on 11/30/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Zbigniew Kominek. All rights reserved.
 //
 
 #import "MCAppDelegate.h"
+#import "ViewsContainer.h"
 
 @implementation MCAppDelegate
 
@@ -16,7 +17,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor blackColor];
+    
+    UIView* firstView = [[ViewsContainer sharedContainer] viewOfType:VT_MAIN_MENU];
+    [self.window addSubview:firstView];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

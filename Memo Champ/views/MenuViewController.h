@@ -1,5 +1,5 @@
 //
-//  MCAppDelegate.h
+//  MenuViewController.h
 //  Memo Champ
 //
 //  Created by Zbigniew Kominek on 11/30/11.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MCAppDelegate : UIResponder <UIApplicationDelegate>
+@interface MenuViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+- (IBAction) play:(id)sender;
 
 @end

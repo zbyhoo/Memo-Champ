@@ -18,6 +18,11 @@
 		261712251486D028000834D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2617120C1486D027000834D5 /* Foundation.framework */; };
 		2617122D1486D028000834D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2617122B1486D028000834D5 /* InfoPlist.strings */; };
 		261712301486D028000834D5 /* Memo_ChampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2617122F1486D028000834D5 /* Memo_ChampTests.m */; };
+		261712421486D232000834D5 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261712401486D232000834D5 /* MenuViewController.m */; };
+		261712431486D232000834D5 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261712411486D232000834D5 /* MenuViewController.xib */; };
+		261712461486D2CE000834D5 /* ViewsContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 261712451486D2CE000834D5 /* ViewsContainer.m */; };
+		2617124A1486D787000834D5 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 261712481486D787000834D5 /* ShowViewController.m */; };
+		2617124B1486D787000834D5 /* ShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261712491486D787000834D5 /* ShowViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,14 @@
 		2617122C1486D028000834D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2617122E1486D028000834D5 /* Memo_ChampTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memo_ChampTests.h; sourceTree = "<group>"; };
 		2617122F1486D028000834D5 /* Memo_ChampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memo_ChampTests.m; sourceTree = "<group>"; };
+		2617123F1486D232000834D5 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = views/MenuViewController.h; sourceTree = "<group>"; };
+		261712401486D232000834D5 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = views/MenuViewController.m; sourceTree = "<group>"; };
+		261712411486D232000834D5 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = views/MenuViewController.xib; sourceTree = "<group>"; };
+		261712441486D2CE000834D5 /* ViewsContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewsContainer.h; path = views/ViewsContainer.h; sourceTree = "<group>"; };
+		261712451486D2CE000834D5 /* ViewsContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewsContainer.m; path = views/ViewsContainer.m; sourceTree = "<group>"; };
+		261712471486D787000834D5 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowViewController.h; path = views/ShowViewController.h; sourceTree = "<group>"; };
+		261712481486D787000834D5 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowViewController.m; path = views/ShowViewController.m; sourceTree = "<group>"; };
+		261712491486D787000834D5 /* ShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShowViewController.xib; path = views/ShowViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +119,7 @@
 		261712101486D027000834D5 /* Memo Champ */ = {
 			isa = PBXGroup;
 			children = (
+				2617123D1486D20E000834D5 /* views */,
 				261712191486D027000834D5 /* MCAppDelegate.h */,
 				2617121A1486D027000834D5 /* MCAppDelegate.m */,
 				261712111486D027000834D5 /* Supporting Files */,
@@ -141,6 +155,21 @@
 				2617122B1486D028000834D5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2617123D1486D20E000834D5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2617123F1486D232000834D5 /* MenuViewController.h */,
+				261712401486D232000834D5 /* MenuViewController.m */,
+				261712411486D232000834D5 /* MenuViewController.xib */,
+				261712441486D2CE000834D5 /* ViewsContainer.h */,
+				261712451486D2CE000834D5 /* ViewsContainer.m */,
+				261712471486D787000834D5 /* ShowViewController.h */,
+				261712481486D787000834D5 /* ShowViewController.m */,
+				261712491486D787000834D5 /* ShowViewController.xib */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +218,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Zbigniew Kominek";
 			};
 			buildConfigurationList = 261712001486D027000834D5 /* Build configuration list for PBXProject "Memo Champ" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -214,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				261712151486D027000834D5 /* InfoPlist.strings in Resources */,
+				261712431486D232000834D5 /* MenuViewController.xib in Resources */,
+				2617124B1486D787000834D5 /* ShowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +282,9 @@
 			files = (
 				261712171486D027000834D5 /* main.m in Sources */,
 				2617121B1486D027000834D5 /* MCAppDelegate.m in Sources */,
+				261712421486D232000834D5 /* MenuViewController.m in Sources */,
+				261712461486D2CE000834D5 /* ViewsContainer.m in Sources */,
+				2617124A1486D787000834D5 /* ShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +446,7 @@
 				261712351486D028000834D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		261712361486D028000834D5 /* Build configuration list for PBXNativeTarget "Memo ChampTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +455,7 @@
 				261712381486D028000834D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
